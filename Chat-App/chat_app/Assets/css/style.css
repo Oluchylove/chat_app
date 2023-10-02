@@ -1,0 +1,147 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+}
+.sidebar{
+    height: 100vh;
+    width: 500px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+.messagesection{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    overflow-y: scroll;
+
+}
+.app{
+    display: flex;
+}
+.inputmessage{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    position: relative;
+    top: 89%;
+    position: fixed;
+    padding: 10px;
+
+
+}
+.inputwrapper{
+    display: inline-flex;
+    width: 100%;
+}
+.profileOnerHeader{
+    width: 100%;
+    /* height: 40px; */
+    background-color: aliceblue;
+    position: relative;
+    top: 0;
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.image{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+.chartwrapper{
+    padding-top: 70px;
+    padding-bottom: 45px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.chart{
+   
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.sender{
+    width: 400px;
+    height: 100px;
+    background-color: brown;
+    padding: 3px;
+    border-radius: 0px 10px 10px 10px;
+    margin-bottom: 100px;
+}
+.reciver{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(97, 165, 42);
+    padding: 3px;
+    border-radius: 10px 10px 0px 10px;
+}
+.ProfileOwnerDetailSection{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.profileownerIcon{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.myTab{
+    padding-right: 20px;
+    height: 110vh;
+}
+.chat-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.chat-txt{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-pills .nav-link{
+    color: #131111;
+}
+.nav-pills:hover .nav-link:hover{
+    background-color: #f3f3f3 !important;
+    color: #131111 !important;
+    border: 1px solid #999 !important;
+    margin-bottom: 10px;
+}
+.nav-pills .nav-link.active{
+    background-color: #f3f3f3 !important;
+    color: #131111 !important;
+    border: 1px solid #999 !important;
+    margin-bottom: 10px;
+
+}
+.nav-pills:focus .nav-link :focus{
+    background-color: #f3f3f3 !important;
+    color: #131111 !important;
+    border: 1px solid #999 !important;
+}
+.contact{
+    font-size: 17px;
+}
+.formIcon{
+    margin-right: 5px;
+}
+.formInput{
+    /* width: 80%;  */
+    outline: none; 
+    border: none; 
+    background-color:aliceblue;
+
+    width: 689px;
+    margin-right: 20px;
+}
+.bnt{
+    font-size: 20px; 
+    width: 200px; 
+    background-color: black; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+    border: none;
+    
+}
